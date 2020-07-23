@@ -10,11 +10,14 @@ Exercise One
 Is it larger than 10?
 */
 
-let number = 5;
+let number = 50;
 
 // 1. Create an if statement where the number is greater than 10.
+if (condition) {
+  50 > 10;
+  console.log("It is bigger than 10!");
+}
 // If it is, then log "It is bigger than 10!" using console.log().
-
 // 2. Change the number variable to something larger than 10, run your code and
 // make sure it works.
 
@@ -25,16 +28,37 @@ Exercise Two
 Determining a color
 */
 
-let color = "";
+let color = "red";
 // 1. Pick either "blue", "red", or "green" and assign it to the color variable.
 
 // 2. Create an if statement, if the color is "blue", then log "The sky is blue." using console.log
-
+if (condition) {
+  color == "blue";
+  console.log("The sky is blue!");
+}
 // 3. Create an else if statement, and if the color is "red" then log "The flower is red."
+if (condition) {
+  color == "blue";
+  console.log("The sky is blue!");
+} else if (condition) {
+  color == "red";
+  console.log("The flower is red!");
+}
 
 // 4. create another else if statement where if the color is "green" then log "The Leaf is green."
-
+if (condition) {
+  color == "blue";
+  console.log("The sky is blue!");
+} else if (condition) {
+  color == "red";
+  console.log("The flower is red!");
+} else if (condition) {
+  color == "green";
+  console.log("The leaf is green");
+}
 // 5. Finally, create an else statement and log "It is a different color".
+else color == false;
+console.log("It is a different color");
 
 // 6. Test your code! Change the value of the color variable to different colors and run your code.
 // The correct message should log to the console.
@@ -60,3 +84,20 @@ a chain of if else statements, some of those just might need multible conditions
 
 let number = 5;
 // Your code here.
+
+if (condition) {
+  number > 10 && number < 20;
+  console.log("Between 10 and 20!");
+}
+if (condition) {
+  number > 20 || number == 20;
+  console.log("20 or greater!");
+}
+if (condition) {
+  number == 16;
+  console.log("The number is 16");
+}
+if (condition) {
+  number < 10 || number == 10;
+  console.log("10 or less!");
+}
